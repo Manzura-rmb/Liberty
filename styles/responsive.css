@@ -1,0 +1,266 @@
+/* ------------------- Responsive ----------------*/
+
+
+
+@media only screen and (min-width:576px) {
+    .container {
+        width: 540px;
+    }
+
+    /*category*/
+    .categories {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .category-item {
+        flex: 45%;
+    }
+
+    .info-bottom>div:nth-child(2) {
+        text-align: right;
+    }
+
+    .marketing-menu ul {
+        justify-content: space-between;
+        column-gap: 15px;
+    }
+
+    .creating {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    .container {
+        width: 720px;
+    }
+
+    .category-item {
+        flex: 30%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .container {
+        width: 960px;
+    }
+
+    /* nav*/
+    .nav-section {
+        padding: 30px 0;
+    }
+
+    .nav-section .container {
+        background-color: #fff;
+        border-radius: 40px;
+    }
+
+    /*main-header*/
+    .main-header_img {
+        padding-left: 95px;
+    }
+
+    /*creating*/
+    .creating {
+        column-count: 3;
+        column-rule: 1px solid lightblue;
+        column-gap: 80px;
+    }
+
+    /*marketing*/
+    .marketing-item {
+        flex: 40%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+        width: 1150px;
+    }
+
+    /*nav*/
+    .nav-section ul li {
+        padding: 5px;
+    }
+
+    .categories {
+        flex-direction: row;
+    }
+
+    .category-item {
+        flex: 15%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .info-bottom>div>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    /*category*/
+    .categories {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .nav-section img {
+        width: 160px;
+    }
+
+    .nav-section .container i {
+        font-size: 24px;
+    }
+
+    .main-header-text h2 {
+        font-size: 40px;
+    }
+
+    .main-header-text h6 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .general-button {
+        padding: 10px 25px;
+    }
+
+    .main-header {
+        padding: 100px 0;
+    }
+
+    .marketing-item {
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .marketing-item>img {
+        height: 400px;
+        width: auto;
+    }
+
+    .info-bottom {
+        flex-direction: column;
+        row-gap: 20px;
+        padding-top: 10px;
+    }
+
+    .marketing-item .info-top>div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .marketing-item .info-top>div {
+        padding: 15px 0;
+    }
+
+    .info-bottom>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .marketing-menu ul {
+        column-gap: 10px;
+        justify-content: center;
+    }
+
+    .creating-section .creat-top {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:992px) {
+
+    /* nav*/
+    .nav-section {
+        background-color: #fff;
+    }
+
+    .nav-section ul {
+        display: none;
+    }
+
+    .nav-section .container i {
+        display: inline-block;
+    }
+
+    /*main-header*/
+    .main-header .container {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .main-header_img img {
+        width: 100%;
+    }
+
+    /*collections*/
+    .collections {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    /*creating*/
+    .creating-section .creat-top {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .creating-section .line {
+        justify-content: center;
+    }
+
+    .creating {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+    /*marketing*/
+    .marketing-section .line {
+        justify-content: center;
+    }
+
+    .marketing-top {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+    .marketing-items-area {
+        flex-direction: column;
+    }
+
+    .marketing-item {
+        flex: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px) {}
